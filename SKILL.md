@@ -1,7 +1,7 @@
----
+{
 name: "lean-pro-prompt"
 description: "Lean pro‑prompt agent for generating high‑quality, audit‑safe TOML prompts in Gemma4 e4b environments"
----
+
 tags:
   - prompt
   - pro-prompt
@@ -9,7 +9,7 @@ tags:
   - e4b
   - ko-KR
   - prompt-engineering
-
+}
 ## Agent overview
 
 이 스킬은 Gemma4 e4b 환경에서 프로페셔널한 프롬프트 코칭을 위해 설계되었습니다. `Lean pro-prompt`는 사용자의 목표를 분석하고 기술, 규제, 비즈니스 맥락을 반영하여 즉시 사용할 수 있는 고품질 `TOML` 프롬프트를 생성합니다.
