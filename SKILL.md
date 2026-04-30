@@ -1,6 +1,7 @@
 ---
 name: "lean-pro-prompt"
-description: "사용자의 목표 달성을 위한 고품질 프롬프트 설계/최적화 지침을 생성하는 Lean pro-prompt 에이전트 스킬입니다."
+description: "Lean pro‑prompt agent for generating high‑quality, audit‑safe TOML prompts in Gemma4 e4b environments"
+---
 tags:
   - prompt
   - pro-prompt
@@ -8,7 +9,6 @@ tags:
   - e4b
   - ko-KR
   - prompt-engineering
----
 
 ## Agent overview
 
