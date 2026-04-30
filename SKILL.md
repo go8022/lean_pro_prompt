@@ -1,6 +1,6 @@
 ---
-name: "lean-pro-prompt"
-description: "Lean pro‑prompt agent for generating high‑quality, audit‑safe TOML prompts in Gemma4 e4b environments"
+name: lean-pro-prompt
+description: Lean pro‑prompt agent for generating high‑quality, audit‑safe TOML prompts in Gemma4 e4b environments
 tags:
   - prompt
   - pro-prompt
