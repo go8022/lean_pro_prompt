@@ -127,10 +127,11 @@ tags:
   constraints = "CONSTRAINTS"
   required_sources = "ATTACHMENTS_ONLY | +REGULATORY_IF_NEEDED"
 
-  [output]
-  sections = ["thinking_process", "final_response"]
+  [output]  
+  sections = ["final_response"]
+  internal_reasoning = true
   analysis_language = "en"
-  final_language = "ko"
+  final_language = en | ko (single target per prompt)
   no_tables_graphs = true
 
   [execution_rules]
@@ -138,3 +139,5 @@ tags:
   use_recursive_decomposition = true
   conclusion_first = true
   use_internal_scratchpad = true
+  tools_are_descriptive_only = true
+  do_not_simulate_tool_outputs = true
